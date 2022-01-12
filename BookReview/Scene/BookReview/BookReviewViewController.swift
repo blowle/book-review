@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+final class BookReviewViewController: UIViewController {
+    
+    private let presenter = BookReviewPresenter() 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
-
