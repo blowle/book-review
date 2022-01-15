@@ -23,6 +23,11 @@ final class BookReviewViewController: UIViewController {
         super.viewDidLoad()
         presenter.viewDidLoad()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        presenter.viewWillAppear()
+    }
 }
 
 extension BookReviewViewController: BookReviewProtocol {
@@ -33,7 +38,7 @@ extension BookReviewViewController: BookReviewProtocol {
         let rightBarButtonItem = UIBarButtonItem(
             barButtonSystemItem: .add,
             target: self,
-            action: nil
+            action: #selector(didTapRightBarButtonItem)
         )
         navigationItem.rightBarButtonItem = rightBarButtonItem
     }
@@ -41,7 +46,23 @@ extension BookReviewViewController: BookReviewProtocol {
     func setupViews() {
         view.addSubview(tableView)
         tableView.snp.makeConstraints {
-            $0.edges.equalTo(view.safeAreaLayoutGuide)
+            $0.edges.equalToSuperview()
         }
+    }
+    
+    func presentToReviewWriteViewController() {
+        let vc = UINavigationController(rootViewController: ReviewWriteViewController())
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true, completion: nil)
+    }
+    
+    func reloadTableView() {
+        tableView.reloadData()
+    }
+}
+
+private extension BookReviewViewController {
+    @objc func didTapRightBarButtonItem() {
+        presenter.didTapRightBarButtonItem()
     }
 }

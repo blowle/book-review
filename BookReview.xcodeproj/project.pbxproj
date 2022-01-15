@@ -19,6 +19,8 @@
 		C90597BD278EFC710032E3D5 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C90597BC278EFC710032E3D5 /* Kingfisher */; };
 		C90597BF278EFCDB0032E3D5 /* BookReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90597BE278EFCDB0032E3D5 /* BookReviewViewController.swift */; };
 		C90597C1278F11630032E3D5 /* BookReviewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90597C0278F11630032E3D5 /* BookReviewPresenter.swift */; };
+		C90597C5278F304B0032E3D5 /* ReviewWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90597C4278F304B0032E3D5 /* ReviewWriteViewController.swift */; };
+		C90597C7278F30550032E3D5 /* ReviewWritePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90597C6278F30550032E3D5 /* ReviewWritePresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		C90597A8278EFA960032E3D5 /* BookReviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C90597BE278EFCDB0032E3D5 /* BookReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReviewViewController.swift; sourceTree = "<group>"; };
 		C90597C0278F11630032E3D5 /* BookReviewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReviewPresenter.swift; sourceTree = "<group>"; };
+		C90597C4278F304B0032E3D5 /* ReviewWriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewWriteViewController.swift; sourceTree = "<group>"; };
+		C90597C6278F30550032E3D5 /* ReviewWritePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewWritePresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,8 +149,18 @@
 			isa = PBXGroup;
 			children = (
 				C90597C2278F11770032E3D5 /* BookReview */,
+				C90597C8278F30590032E3D5 /* ReviewWrite */,
 			);
 			path = Scene;
+			sourceTree = "<group>";
+		};
+		C90597C8278F30590032E3D5 /* ReviewWrite */ = {
+			isa = PBXGroup;
+			children = (
+				C90597C4278F304B0032E3D5 /* ReviewWriteViewController.swift */,
+				C90597C6278F30550032E3D5 /* ReviewWritePresenter.swift */,
+			);
+			path = ReviewWrite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,8 +303,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C90597C7278F30550032E3D5 /* ReviewWritePresenter.swift in Sources */,
 				C90597BF278EFCDB0032E3D5 /* BookReviewViewController.swift in Sources */,
 				C90597C1278F11630032E3D5 /* BookReviewPresenter.swift in Sources */,
+				C90597C5278F304B0032E3D5 /* ReviewWriteViewController.swift in Sources */,
 				C9059786278EFA950032E3D5 /* AppDelegate.swift in Sources */,
 				C9059788278EFA950032E3D5 /* SceneDelegate.swift in Sources */,
 			);

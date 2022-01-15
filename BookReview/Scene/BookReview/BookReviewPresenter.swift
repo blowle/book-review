@@ -10,18 +10,28 @@ import UIKit
 protocol BookReviewProtocol {
     func setupNavigationBar()
     func setupViews()
+    func presentToReviewWriteViewController()
+    func reloadTableView()
 }
 
 final class BookReviewPresenter: NSObject {
-    private let viewController: BookReviewViewController
+    private let viewController: BookReviewProtocol
     
-    init(viewController: BookReviewViewController) {
+    init(viewController: BookReviewProtocol) {
         self.viewController = viewController
     }
     
     func viewDidLoad() {
         viewController.setupNavigationBar()
         viewController.setupViews()
+    }
+    
+    func viewWillAppear() {
+        viewController.reloadTableView()
+    }
+    
+    func didTapRightBarButtonItem() {
+        viewController.presentToReviewWriteViewController()
     }
 }
 
