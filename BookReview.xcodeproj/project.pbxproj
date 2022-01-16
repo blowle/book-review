@@ -28,6 +28,8 @@
 		C9FCD578279467CD00B06C48 /* BookSearchResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCD577279467CD00B06C48 /* BookSearchResponseModel.swift */; };
 		C9FCD57B279468F100B06C48 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCD57A279468F100B06C48 /* Book.swift */; };
 		C9FCD57D2794691C00B06C48 /* BookSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCD57C2794691C00B06C48 /* BookSearchManager.swift */; };
+		C9FCD58027947ED300B06C48 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCD57F27947ED300B06C48 /* UserDefaultsManager.swift */; };
+		C9FCD58227947EDF00B06C48 /* BookReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCD58127947EDF00B06C48 /* BookReview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		C9FCD577279467CD00B06C48 /* BookSearchResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchResponseModel.swift; sourceTree = "<group>"; };
 		C9FCD57A279468F100B06C48 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		C9FCD57C2794691C00B06C48 /* BookSearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchManager.swift; sourceTree = "<group>"; };
+		C9FCD57F27947ED300B06C48 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		C9FCD58127947EDF00B06C48 /* BookReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +200,7 @@
 				C9FCD5752794677100B06C48 /* BookSearchRequestModel.swift */,
 				C9FCD577279467CD00B06C48 /* BookSearchResponseModel.swift */,
 				C9FCD57A279468F100B06C48 /* Book.swift */,
+				C9FCD58127947EDF00B06C48 /* BookReview.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				C9FCD57C2794691C00B06C48 /* BookSearchManager.swift */,
+				C9FCD57F27947ED300B06C48 /* UserDefaultsManager.swift */,
 			);
 			name = Manager;
 			path = ..;
@@ -354,11 +360,13 @@
 				C90597BF278EFCDB0032E3D5 /* BookReviewViewController.swift in Sources */,
 				C90597C1278F11630032E3D5 /* BookReviewPresenter.swift in Sources */,
 				C90597CA27932E080032E3D5 /* SearchBookViewController.swift in Sources */,
+				C9FCD58227947EDF00B06C48 /* BookReview.swift in Sources */,
 				C9FCD5762794677100B06C48 /* BookSearchRequestModel.swift in Sources */,
 				C90597C5278F304B0032E3D5 /* ReviewWriteViewController.swift in Sources */,
 				C90597CC27932E360032E3D5 /* SearchBookPresenter.swift in Sources */,
 				C9FCD578279467CD00B06C48 /* BookSearchResponseModel.swift in Sources */,
 				C9FCD57B279468F100B06C48 /* Book.swift in Sources */,
+				C9FCD58027947ED300B06C48 /* UserDefaultsManager.swift in Sources */,
 				C9059786278EFA950032E3D5 /* AppDelegate.swift in Sources */,
 				C9059788278EFA950032E3D5 /* SceneDelegate.swift in Sources */,
 				C9FCD574279459B600B06C48 /* Constants.swift in Sources */,
