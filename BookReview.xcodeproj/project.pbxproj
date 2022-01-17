@@ -11,7 +11,7 @@
 		C9059788278EFA950032E3D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9059787278EFA950032E3D5 /* SceneDelegate.swift */; };
 		C905978F278EFA960032E3D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C905978E278EFA960032E3D5 /* Assets.xcassets */; };
 		C9059792278EFA960032E3D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9059790278EFA960032E3D5 /* LaunchScreen.storyboard */; };
-		C905979D278EFA960032E3D5 /* BookReviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C905979C278EFA960032E3D5 /* BookReviewTests.swift */; };
+		C905979D278EFA960032E3D5 /* BookReviewPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C905979C278EFA960032E3D5 /* BookReviewPresenterTests.swift */; };
 		C90597A7278EFA960032E3D5 /* BookReviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90597A6278EFA960032E3D5 /* BookReviewUITests.swift */; };
 		C90597A9278EFA960032E3D5 /* BookReviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90597A8278EFA960032E3D5 /* BookReviewUITestsLaunchTests.swift */; };
 		C90597B7278EFC350032E3D5 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C90597B6278EFC350032E3D5 /* SnapKit */; };
@@ -30,6 +30,9 @@
 		C9FCD57D2794691C00B06C48 /* BookSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCD57C2794691C00B06C48 /* BookSearchManager.swift */; };
 		C9FCD58027947ED300B06C48 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCD57F27947ED300B06C48 /* UserDefaultsManager.swift */; };
 		C9FCD58227947EDF00B06C48 /* BookReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCD58127947EDF00B06C48 /* BookReview.swift */; };
+		C9FCD58427954B4C00B06C48 /* MockUserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCD58327954B4C00B06C48 /* MockUserDefaultsManager.swift */; };
+		C9FCD58627954B5600B06C48 /* MockBookReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCD58527954B5600B06C48 /* MockBookReviewViewController.swift */; };
+		C9FCD58A2795584E00B06C48 /* ReviewWritePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCD5892795584E00B06C48 /* ReviewWritePresenterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +60,7 @@
 		C9059791278EFA960032E3D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9059793278EFA960032E3D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9059798278EFA960032E3D5 /* BookReviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookReviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C905979C278EFA960032E3D5 /* BookReviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReviewTests.swift; sourceTree = "<group>"; };
+		C905979C278EFA960032E3D5 /* BookReviewPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReviewPresenterTests.swift; sourceTree = "<group>"; };
 		C90597A2278EFA960032E3D5 /* BookReviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookReviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C90597A6278EFA960032E3D5 /* BookReviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReviewUITests.swift; sourceTree = "<group>"; };
 		C90597A8278EFA960032E3D5 /* BookReviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -74,6 +77,9 @@
 		C9FCD57C2794691C00B06C48 /* BookSearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchManager.swift; sourceTree = "<group>"; };
 		C9FCD57F27947ED300B06C48 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		C9FCD58127947EDF00B06C48 /* BookReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReview.swift; sourceTree = "<group>"; };
+		C9FCD58327954B4C00B06C48 /* MockUserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserDefaultsManager.swift; sourceTree = "<group>"; };
+		C9FCD58527954B5600B06C48 /* MockBookReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBookReviewViewController.swift; sourceTree = "<group>"; };
+		C9FCD5892795584E00B06C48 /* ReviewWritePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewWritePresenterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +149,8 @@
 		C905979B278EFA960032E3D5 /* BookReviewTests */ = {
 			isa = PBXGroup;
 			children = (
-				C905979C278EFA960032E3D5 /* BookReviewTests.swift */,
+				C9FCD58827954BA400B06C48 /* Tests */,
+				C9FCD58727954B6400B06C48 /* Mock */,
 			);
 			path = BookReviewTests;
 			sourceTree = "<group>";
@@ -213,6 +220,24 @@
 			);
 			name = Manager;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		C9FCD58727954B6400B06C48 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				C9FCD58327954B4C00B06C48 /* MockUserDefaultsManager.swift */,
+				C9FCD58527954B5600B06C48 /* MockBookReviewViewController.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		C9FCD58827954BA400B06C48 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C905979C278EFA960032E3D5 /* BookReviewPresenterTests.swift */,
+				C9FCD5892795584E00B06C48 /* ReviewWritePresenterTests.swift */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,7 +402,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C905979D278EFA960032E3D5 /* BookReviewTests.swift in Sources */,
+				C9FCD58427954B4C00B06C48 /* MockUserDefaultsManager.swift in Sources */,
+				C9FCD58627954B5600B06C48 /* MockBookReviewViewController.swift in Sources */,
+				C9FCD58A2795584E00B06C48 /* ReviewWritePresenterTests.swift in Sources */,
+				C905979D278EFA960032E3D5 /* BookReviewPresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

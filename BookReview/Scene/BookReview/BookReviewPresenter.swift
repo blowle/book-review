@@ -17,12 +17,16 @@ protocol BookReviewProtocol {
 
 final class BookReviewPresenter: NSObject {
     private let viewController: BookReviewProtocol
-    private let userDefaultsManager = UserDefaultsManager()
+    private let userDefaultsManager: UserDefaultsManagerProtocol
     
     private var reviews: [BookReview] = []
     
-    init(viewController: BookReviewProtocol) {
+    init(
+        viewController: BookReviewProtocol,
+        userDefaultsManager: UserDefaultsManagerProtocol = UserDefaultsManager()
+    ) {
         self.viewController = viewController
+        self.userDefaultsManager = userDefaultsManager
     }
     
     func viewDidLoad() {
