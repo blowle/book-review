@@ -33,6 +33,9 @@
 		C9FCD58427954B4C00B06C48 /* MockUserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCD58327954B4C00B06C48 /* MockUserDefaultsManager.swift */; };
 		C9FCD58627954B5600B06C48 /* MockBookReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCD58527954B5600B06C48 /* MockBookReviewViewController.swift */; };
 		C9FCD58A2795584E00B06C48 /* ReviewWritePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCD5892795584E00B06C48 /* ReviewWritePresenterTests.swift */; };
+		C9FCD58C27956CB700B06C48 /* MockReviewWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCD58B27956CB700B06C48 /* MockReviewWriteViewController.swift */; };
+		C9FCD58E279571F200B06C48 /* SearchBookPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCD58D279571F200B06C48 /* SearchBookPresenterTests.swift */; };
+		C9FCD5912795A2BC00B06C48 /* MockSearchBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCD5902795A2BC00B06C48 /* MockSearchBookViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +83,9 @@
 		C9FCD58327954B4C00B06C48 /* MockUserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserDefaultsManager.swift; sourceTree = "<group>"; };
 		C9FCD58527954B5600B06C48 /* MockBookReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBookReviewViewController.swift; sourceTree = "<group>"; };
 		C9FCD5892795584E00B06C48 /* ReviewWritePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewWritePresenterTests.swift; sourceTree = "<group>"; };
+		C9FCD58B27956CB700B06C48 /* MockReviewWriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockReviewWriteViewController.swift; sourceTree = "<group>"; };
+		C9FCD58D279571F200B06C48 /* SearchBookPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBookPresenterTests.swift; sourceTree = "<group>"; };
+		C9FCD5902795A2BC00B06C48 /* MockSearchBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSearchBookViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +233,8 @@
 			children = (
 				C9FCD58327954B4C00B06C48 /* MockUserDefaultsManager.swift */,
 				C9FCD58527954B5600B06C48 /* MockBookReviewViewController.swift */,
+				C9FCD58B27956CB700B06C48 /* MockReviewWriteViewController.swift */,
+				C9FCD5902795A2BC00B06C48 /* MockSearchBookViewController.swift */,
 			);
 			path = Mock;
 			sourceTree = "<group>";
@@ -236,6 +244,7 @@
 			children = (
 				C905979C278EFA960032E3D5 /* BookReviewPresenterTests.swift */,
 				C9FCD5892795584E00B06C48 /* ReviewWritePresenterTests.swift */,
+				C9FCD58D279571F200B06C48 /* SearchBookPresenterTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -402,8 +411,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9FCD5912795A2BC00B06C48 /* MockSearchBookViewController.swift in Sources */,
+				C9FCD58C27956CB700B06C48 /* MockReviewWriteViewController.swift in Sources */,
 				C9FCD58427954B4C00B06C48 /* MockUserDefaultsManager.swift in Sources */,
 				C9FCD58627954B5600B06C48 /* MockBookReviewViewController.swift in Sources */,
+				C9FCD58E279571F200B06C48 /* SearchBookPresenterTests.swift in Sources */,
 				C9FCD58A2795584E00B06C48 /* ReviewWritePresenterTests.swift in Sources */,
 				C905979D278EFA960032E3D5 /* BookReviewPresenterTests.swift in Sources */,
 			);
